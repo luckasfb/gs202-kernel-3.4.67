@@ -509,7 +509,7 @@ static void lcm_get_params(LCM_PARAMS *params)
     params->dpi.hsync_pulse_width = 5;
     params->dpi.hsync_back_porch  = 5;
     params->dpi.hsync_front_porch = 5;
-    params->dpi.vsync_pulse_width = 10; //4
+    params->dpi.vsync_pulse_width = 5; //4
     params->dpi.vsync_back_porch  = 5;
     params->dpi.vsync_front_porch = 8;
    
